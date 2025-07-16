@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/local/include",
+                "/usr/local/include/c++/15.1.0",
+                "/usr/local/include/c++/15.1.0/x86_64-linux-gnu",
+                "/usr/include"
+            ],
+            "compilerPath": "/usr/local/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -19,9 +19,9 @@
     "c-cpp-flylint.flawfinder.enable": false,
     "c-cpp-flylint.flexelint.enable": false,
     "c-cpp-flylint.run": "onType",
-    "c-cpp-flylint.language": "c",
+    "c-cpp-flylint.language": "c++",
     "c-cpp-flylint.standard": [
-        "c11"
+        "c++11"
     ],
     "[c]": {
         // "editor.defaultFormatter": "xaver.clang-format",
@@ -30,5 +30,8 @@
     "[cpp]": {
         // "editor.defaultFormatter": "xaver.clang-format",
         "editor.defaultFormatter": "ms-vscode.cpptools",
+    },
+    "files.associations": {
+        "ostream": "cpp"
     },
 }
